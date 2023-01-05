@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-05T10:15:24.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SRXMiBPlfqMzBx6dO195" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-05T10:21:54.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="G4pNAyVhHyPgWwnEnUsT" version="20.7.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1004" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3816" dy="2304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -74,7 +74,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GuQL8tU4yzaaKCOji9VL-79" value="Drug Online" style="swimlane;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="240" y="440" width="320" height="1120" as="geometry" />
+          <mxGeometry x="210" y="440" width="380" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="GuQL8tU4yzaaKCOji9VL-80" value="Login / Sing in" style="ellipse;whiteSpace=wrap;html=1;" parent="GuQL8tU4yzaaKCOji9VL-79" vertex="1">
           <mxGeometry x="100" y="40" width="120" height="80" as="geometry" />
@@ -128,6 +128,12 @@
             <mxPoint x="210" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lYJ1XYQ2Ts7eLsLT0Uyb-121" value="Reject Order" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GuQL8tU4yzaaKCOji9VL-79">
+          <mxGeometry x="210" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lYJ1XYQ2Ts7eLsLT0Uyb-123" value="Add same drug" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GuQL8tU4yzaaKCOji9VL-79">
+          <mxGeometry x="220" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="GuQL8tU4yzaaKCOji9VL-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GuQL8tU4yzaaKCOji9VL-97" target="GuQL8tU4yzaaKCOji9VL-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -163,6 +169,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GuQL8tU4yzaaKCOji9VL-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GuQL8tU4yzaaKCOji9VL-104" target="GuQL8tU4yzaaKCOji9VL-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lYJ1XYQ2Ts7eLsLT0Uyb-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#FFFFFF;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GuQL8tU4yzaaKCOji9VL-104" target="lYJ1XYQ2Ts7eLsLT0Uyb-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lYJ1XYQ2Ts7eLsLT0Uyb-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontColor=#FFFFFF;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GuQL8tU4yzaaKCOji9VL-104" target="lYJ1XYQ2Ts7eLsLT0Uyb-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GuQL8tU4yzaaKCOji9VL-104" value="Pharmacy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
